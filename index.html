@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Wubbot</title>
+    <meta name="description" content="Wubbot" />
+    <meta name="keywords" content="wubbot, placeholder" />
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+      }
+      .bg {
+        background-image: url('./bg-1920.jpg');
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      h1.wubbot {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        font-size: 4rem;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: 'Pixelify Sans', sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        filter: drop-shadow(3px 3px 0px #000);
+      }
+      @media screen and (max-width: 1200px) {
+        .bg {
+          background-image: url('./bg-1200.jpg');
+          background-position: right;
+        }
+        h1.wubbot {
+          top: 10%;
+        }
+      }
+      @media screen and (max-width: 800px) {
+        .bg {
+          background-image: url('./bg-800.jpg');
+          background-position: right;
+        }
+        h1.wubbot {
+          top: 10%;
+        }
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bg">
+      <h1 class="wubbot">Wubbot</h1>
+    </div>
+  </body>
+</html>
